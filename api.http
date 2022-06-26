@@ -1,0 +1,11 @@
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+    "category": "Computador",
+    "name": "LG",
+    "model": "A530, 500GB, 8GBRAM",
+    "year": 2005,
+    "new": false,
+    "price": 200.00
+}
