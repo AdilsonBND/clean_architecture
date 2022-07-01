@@ -2,9 +2,8 @@ FROM node:18.4.0-alpine
 
 RUN apk add --no-cache bash
 
-RUN npm install
-
+WORKDIR /home/node/app
 
 USER node
 
-WORKDIR /home/node/app
+CMD npm install
