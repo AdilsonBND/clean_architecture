@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "express": "ts-node src/infra/http/index.ts"
+    "express": "ts-node src/infra/http/index.ts",
+    "dc:up": "docker-compose up",
+    "dc:exec": "docker exec -it app sh",
+    "dc:down": "docker-compose down",
+    "dc:rm": "docker compose -f docker-compose.yaml down -v --rmi all"
   },
   "repository": {
     "type": "git",
