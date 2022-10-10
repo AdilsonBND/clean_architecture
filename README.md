@@ -1,5 +1,4 @@
-# Como executar ...
-API em construção, apenas para teste estão disponíveis os métodos GET e POST ainda sem persistência no banco de dados.
+Trata-se de projeto de estudo para implementação de arquitetura limpa ainda sem persistência de dados.
 
 ### Para executar realize os procedimentos abaixo:
 
@@ -10,11 +9,9 @@ Inicie seu docker, e no terminal inicie o prejeto executando:
 
 * docker-compose up
 
-Agora acesso o diretório do projeto no VSCode e realize os passos a seguir:
+Agora acesse o diretório do projeto no VSCode e realize os passos a seguir:
 
 * Instale a extensão APICliente
 * No aquivo api.http clique em "Send Request", isso fará com que o APICliente realize POST inserindo os dados JSON na memória
 * Abra seu navegador no local http://localhost:3000 e serão apresentados os dados inseridos pelo POST realizado no passo anterior.
 
-Próximo passo:
-  * Persistência de dados no MongoDB.
